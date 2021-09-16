@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dogicon"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello there,"
+        android:textColor="@color/purple_200"
+        android:textSize="35sp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/welcome_back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crossbred your doggy"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="NEW USER? SING UP!"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="right"
+        android:elevation="0dp"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:paddingTop="30dp"
+        android:id="@+id/newUser"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/loginButton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="NEW USER? SING UP!"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="right"
+        android:elevation="0dp"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/registerButton"/>
+
+
+
+
+
+</LinearLayout>
